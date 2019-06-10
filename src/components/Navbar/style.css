@@ -1,0 +1,17 @@
+.nav {
+    padding: 1rem 5rem;
+}
+
+h1, p {
+    margin: 0;
+    line-height: 3rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.4rem;
+}
