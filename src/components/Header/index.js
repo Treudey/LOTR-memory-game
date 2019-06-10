@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Header(props) {
+function Header() {
   return (
     <div class="jumbotron jumbotron-fluid text-center">
       <div class="container">
