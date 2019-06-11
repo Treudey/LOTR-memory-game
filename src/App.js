@@ -9,7 +9,7 @@ import './App.css';
 
 class App extends React.Component {
   state = {
-    message: 'Click an image to begin',
+    message: 'Click an image to begin!',
     score: 0,
     topScore: 0
   };
