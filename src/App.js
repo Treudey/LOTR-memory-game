@@ -6,12 +6,12 @@ import CharacterTile from './components/CharacterTile';
 import characters from "./characters.json";
 import './App.css';
 
-
 class App extends React.Component {
   state = {
     message: 'Click an image to begin!',
     score: 0,
-    topScore: 0
+    topScore: 0,
+    guessedChars: []
   };
 
   shuffle = (array) => {
@@ -31,7 +31,27 @@ class App extends React.Component {
     }
   
     return array;
-  }
+  };
+
+  handleGuess = (id) => {
+    const { guessedChars, score, topScore } = this.state;
+    if (!guessedChars.includes(id)) {
+      const newTopScore = score >= topScore ? score + 1 : topScore;
+      const addedToArray = guessedChars.concat(id);
+      this.setState({
+        message:'You guessed correctly!', 
+        score: score + 1,
+        topScore: newTopScore,
+        guessedChars: addedToArray
+      });
+    } else {
+      this.setState({
+        message: 'Incorrect! Try again!',
+        score: 0,
+        guessedChars: []
+      });
+    }
+  };
 
   render() {
     const shuffledCharacters = this.shuffle(characters);
@@ -41,6 +61,7 @@ class App extends React.Component {
         id={character.id}
         name={character.name}
         url={character.image}
+        handleGuess={this.handleGuess}
       />
     );
 
