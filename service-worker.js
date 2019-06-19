@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/LOTR-memory-game/precache-manifest.f5eb2d07d03e11c945bedc7328a9d793.js"
+  "/LOTR-memory-game/precache-manifest.02aa15d7c1ed1bde9e53580cd7e2576a.js"
 );
 
 self.addEventListener('message', (event) => {
