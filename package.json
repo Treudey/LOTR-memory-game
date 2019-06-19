@@ -2,7 +2,7 @@
   "name": "memory-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Treudey/LOTR-memory-game",
+  "homepage": "https://treudey.github.io/LOTR-memory-game/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

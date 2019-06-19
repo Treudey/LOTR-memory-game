@@ -9,10 +9,9 @@ function CharacterTile(props) {
         id={props.id} 
         src={props.url} 
         alt={props.name} 
-        class="img-thumbnail" 
+        className="img-thumbnail" 
         onClick={() => props.handleGuess(props.id)}
       >
-
       </img>
     </div>
   );
