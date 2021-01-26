@@ -36,11 +36,28 @@ class App extends React.Component {
   handleGuess = (id) => {
     const { guessedChars, score, topScore } = this.state;
     if (!guessedChars.includes(id)) {
-      const newTopScore = score >= topScore ? score + 1 : topScore;
+      if (score === 12) {
+        return this.setState({
+          message:'You guessed correctly!', 
+          score: 1,
+          topScore: 12,
+          guessedChars: [id]
+        });
+      }
+      const newScore = score + 1;
+      const newTopScore = score >= topScore ? newScore : topScore;
+      if (newScore === 12) {
+        return this.setState({
+          message:'You win! Good Job!', 
+          score: newScore,
+          topScore: newTopScore,
+          guessedChars: []
+        });
+      }
       const addedToArray = guessedChars.concat(id);
       this.setState({
         message:'You guessed correctly!', 
-        score: score + 1,
+        score: newScore,
         topScore: newTopScore,
         guessedChars: addedToArray
       });
