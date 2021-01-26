@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/LOTR-memory-game/static/css/main.865ed4b4.chunk.css",
-    "main.js": "/LOTR-memory-game/static/js/main.c29afcaf.chunk.js",
-    "main.js.map": "/LOTR-memory-game/static/js/main.c29afcaf.chunk.js.map",
+    "main.css": "/LOTR-memory-game/static/css/main.2e060592.chunk.css",
+    "main.js": "/LOTR-memory-game/static/js/main.819c102b.chunk.js",
+    "main.js.map": "/LOTR-memory-game/static/js/main.819c102b.chunk.js.map",
     "runtime~main.js": "/LOTR-memory-game/static/js/runtime~main.ba5de6d7.js",
     "runtime~main.js.map": "/LOTR-memory-game/static/js/runtime~main.ba5de6d7.js.map",
     "static/js/2.6efc73d3.chunk.js": "/LOTR-memory-game/static/js/2.6efc73d3.chunk.js",
     "static/js/2.6efc73d3.chunk.js.map": "/LOTR-memory-game/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/LOTR-memory-game/index.html",
-    "precache-manifest.ce4b9d589895e2cfe5784b12d8557a14.js": "/LOTR-memory-game/precache-manifest.ce4b9d589895e2cfe5784b12d8557a14.js",
+    "precache-manifest.ce10b919dba57a0b2ac0354ecac59aae.js": "/LOTR-memory-game/precache-manifest.ce10b919dba57a0b2ac0354ecac59aae.js",
     "service-worker.js": "/LOTR-memory-game/service-worker.js",
-    "static/css/main.865ed4b4.chunk.css.map": "/LOTR-memory-game/static/css/main.865ed4b4.chunk.css.map"
+    "static/css/main.2e060592.chunk.css.map": "/LOTR-memory-game/static/css/main.2e060592.chunk.css.map"
   }
 }
